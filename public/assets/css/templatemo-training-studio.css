@@ -665,6 +665,11 @@ features
 ---------------------------------------------
 */
 
+#list{
+  display: grid;
+  grid-template-columns: repeat(6,"1fr");
+}
+
 #features {
   margin-bottom: 80px;
 }
@@ -1004,6 +1009,63 @@ trainers
 
 /* 
 ---------------------------------------------
+experience
+--------------------------------------------- 
+*/
+
+#experience .trainer-item {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  padding: 40px;
+}
+
+#experience .trainer-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+#experience .trainer-item span {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ed563b;
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+#experience .trainer-item h4 {
+  font-size: 19px;
+  font-weight: 600;
+  color: #232d39;
+  letter-spacing: 0.5px;
+  margin-bottom: 18px;
+}
+
+#experience .trainer-item p {
+  margin-bottom: 20px;
+}
+
+#experience .trainer-item ul.social-icons li {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+#experience .trainer-item ul.social-icons li:last-child {
+  margin-right: 0px;
+}
+
+#experience .trainer-item ul.social-icons li a {
+  color: #232d39;
+  transition: all .3s;
+}
+
+#experience .trainer-item ul.social-icons li a:hover {
+  color: #ed563b;
+}
+
+/* 
+---------------------------------------------
 contact
 --------------------------------------------- 
 */
@@ -1255,3 +1317,4 @@ responsive
     margin-left: 130px;
   }
 }
+

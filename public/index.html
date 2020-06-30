@@ -31,6 +31,14 @@ https://templatemo.com/tm-548-training-studio
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
 
     <link rel="stylesheet" href="assets/css/templatemo-training-studio.css" />
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script defer src="/__/firebase/7.15.5/firebase-app.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    
+    <script defer src="/__/firebase/7.15.5/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.15.5/firebase-firestore.js"></script>
   </head>
 
   <body>
@@ -72,7 +80,7 @@ https://templatemo.com/tm-548-training-studio
                   <a href="#schedule">Education</a>
                 </li>
                 <li class="scroll-to-section">
-                  <a href="#trainers">Experience</a>
+                  <a href="#experience">Experience</a>
                 </li>
                 <li class="scroll-to-section">
                   <a href="#contact-us"
@@ -100,7 +108,7 @@ https://templatemo.com/tm-548-training-studio
       <div class="video-overlay header-text">
         <div class="caption">
           <h6>Computer Science Student</h6>
-          <h2>Software <em>Developer</em></h2>
+          <h2>Web <em>dev</em></h2>
           <h6>Looking for internship position</h6>
           <br />
           <div class="main-button scroll-to-section">
@@ -126,92 +134,61 @@ https://templatemo.com/tm-548-training-studio
               </p>
             </div>
           </div>
-          <div class="col-lg-6">
-            <ul class="features-items">
-              <li class="feature-item">
-                <div class="left-icon">
-                  <img
-                    src="./assets/images/Skills/mongodb.png"
-                    alt="First One"
-                  />
-                </div>
-                <div class="right-content">
-                  <h4>MongoDB</h4>
-                  <p>
-                    NoSQL Database
-                  </p>
+          <div class="icons container text-center">
+            <ul class="list row">
+              <li class="listElem col">
+                <div class="icon">
+                  <figure>
+                    <img
+                      src="./assets/images/Skills/mongodb.png"
+                      alt="MongoDB"
+                    />
+                    <figcaption>Mongodb</figcaption>
+                  </figure>
                 </div>
               </li>
-              <li class="feature-item">
-                <div class="left-icon">
-                  <img src="assets/images/Skills/Nodejs.png" alt="second one" />
-                </div>
-                <div class="right-content">
-                  <h4>Node.js</h4>
-                  <p>
-                    Javascript Runtime for the Backend
-                  </p>
-                </div>
+              <li class="listElem col">
+                <figure>
+                  <img src="assets/images/Skills/Nodejs.png" alt="Nodejs" />
+                  <figcaption>
+                    Nodejs
+                  </figcaption>
+                </figure>
               </li>
-              <li class="feature-item">
-                <div class="left-icon">
-                  <img
-                    src="assets/images/Skills/express.png"
-                    alt="third gym training"
-                  />
-                </div>
-                <div class="right-content">
-                  <h4>Express.js</h4>
-                  <p>
-                    Node.js Framework to better build the API
-                  </p>
-                </div>
+              <li class="listElem col">
+                <figure>
+                  <img src="assets/images/Skills/express.png" alt="Express" />
+                  <figcaption>
+                    Express.js
+                  </figcaption>
+                </figure>
               </li>
-            </ul>
-          </div>
-          <div class="col-lg-6">
-            <ul class="features-items">
-              <li class="feature-item">
-                <div class="left-icon">
-                  <img
-                    src="/assets/images/Skills/html5.png"
-                    alt="fourth muscle"
-                  />
-                </div>
-                <div class="right-content">
-                  <h4>HTML5</h4>
-                  <p>
-                    Markup
-                  </p>
-                </div>
+              <li class="listElem col">
+                <figure>
+                  <img src="assets/images/Skills/React.png" alt="React" />
+                  <figcaption>
+                    React
+                  </figcaption>
+                </figure>
               </li>
-              <li class="feature-item">
-                <div class="left-icon">
+              <li class="listElem col">
+                <figure>
+                  <img src="/assets/images/Skills/html5.png" alt="html5" />
+                  <figcaption>
+                    HTML5
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="listElem col">
+                <figure>
                   <img
                     src="/assets/images/Skills/sass.png"
                     alt="training fifth"
                   />
-                </div>
-                <div class="right-content">
-                  <h4>Sass</h4>
-                  <p>
-                    A superset and pre-processor of CSS
-                  </p>
-                </div>
-              </li>
-              <li class="feature-item">
-                <div class="left-icon">
-                  <img
-                    src="assets/images/features-first-icon.png"
-                    alt="gym training"
-                  />
-                </div>
-                <div class="right-content">
-                  <h4>React</h4>
-                  <p>
-                    Javascript front-end framework
-                  </p>
-                </div>
+                  <figcaption>
+                    Sass
+                  </figcaption>
+                </figure>
               </li>
             </ul>
           </div>
@@ -265,10 +242,7 @@ https://templatemo.com/tm-548-training-studio
             <ul>
               <li>
                 <a href="https://vault-sb.herokuapp.com/" target="_blank"
-                  ><img
-                    src="assets/images/tabs-first-icon.png"
-                    alt="Vault"
-                  />Vault</a
+                  ><img src="assets/images/Vault.png" alt="Vault" />Vault</a
                 >
               </li>
             </ul>
@@ -359,7 +333,7 @@ https://templatemo.com/tm-548-training-studio
     </section>
 
     <!-- ***** Testimonials Starts ***** -->
-    <section class="section" id="trainers">
+    <section class="section" id="experience">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 offset-lg-3">
@@ -421,7 +395,7 @@ https://templatemo.com/tm-548-training-studio
           </div>
           <div class="col-lg-6 col-md-6 col-xs-12">
             <div class="contact-form">
-              <form id="contact" action="" method="post">
+              <form id="contact">
                 <div class="row">
                   <div class="col-md-6 col-sm-12">
                     <fieldset>
@@ -442,6 +416,17 @@ https://templatemo.com/tm-548-training-studio
                         id="email"
                         pattern="[^ @]*@[^ @]*"
                         placeholder="Your Email*"
+                        required=""
+                      />
+                    </fieldset>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                    <fieldset>
+                      <input
+                        name="phone"
+                        type="number"
+                        id="phone"
+                        placeholder="Your Phone Number*"
                         required=""
                       />
                     </fieldset>
@@ -509,6 +494,13 @@ https://templatemo.com/tm-548-training-studio
       </div>
     </footer>
 
+    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+    <script defer src="assets/js/main.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script defer src="/__/firebase/init.js"></script>
+
     <!-- jQuery -->
     <script src="assets/js/jquery-2.1.0.min.js"></script>
 
@@ -526,5 +518,6 @@ https://templatemo.com/tm-548-training-studio
 
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/validation.js"></script>
   </body>
 </html>
