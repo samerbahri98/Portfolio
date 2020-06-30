@@ -670,7 +670,7 @@ features
 }
 
 .feature-item {
-  display: inline-block;
+
   margin-bottom: 60px;
 }
 
@@ -700,6 +700,14 @@ features
   text-transform: uppercase;
   color: #ed563b;
   font-weight: 500;
+}
+
+
+.skills {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  align-self: center;
 }
 
 /*
