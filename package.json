@@ -1,0 +1,20 @@
+{
+	"name": "portfolio",
+	"version": "0.0.1",
+	"private": true,
+	"license": "AGPLv3",
+	"workspaces": [
+		"website",
+		"resume",
+		"netlify-cms"
+	],
+	"devDependencies": {
+		"concurrently": "^7.6.0",
+		"netlify-cli": "^12.4.0"
+	},
+	"scripts": {
+		"dev": "concurrently \"yarn netlify dev\" \"yarn workspace website dev\"",
+		"netlify": "netlify",
+		"build:website": "yarn workspace website build"
+	}
+}
