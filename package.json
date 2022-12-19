@@ -10,7 +10,12 @@
 	],
 	"devDependencies": {
 		"concurrently": "^7.6.0",
+
 		"netlify-cli": "^12.4.0"
+	},
+	"resolutions": {
+		"netlify-cli/**/glob-parent": "^5.1.2",
+		"netlify-cli/**/got": "^11.8.5"
 	},
 	"scripts": {
 		"dev": "concurrently \"yarn netlify dev\" \"yarn workspace website dev\"",
