@@ -6,5 +6,6 @@
   YARN_VERSION = "1.22.19"
   NODE_VERSION = "18.12.1"
 
-[context.production]
+[build]
+  command = "yarn workspace website build"
   publish = "website/build"
