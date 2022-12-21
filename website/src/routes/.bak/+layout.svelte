@@ -4,6 +4,7 @@
 </script>
 
 <div class="app">
+	<!-- <Hero /> -->
 	<Header />
 
 	<main>
