@@ -3,14 +3,14 @@
         <div class="grid items-center grid-cols-1 md:grid-cols-2">
             <div>
                 <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Hey 👋 I am <br class="block sm:hidden" />Samer Bahri</h2>
-                <p class="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <p class="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">Fresh Software Engineering and DevOps Graduate, Actively seeking professional opportunities.</p>
 
                 <p class="mt-4 text-xl text-gray-600 md:mt-8">
                     <span class="relative inline-block">
                         <span class="absolute inline-block w-full bottom-0.5 h-2 bg-yellow-300"></span>
                         <span class="relative"> Have a question? </span>
                     </span>
-                    <br class="block sm:hidden" />Ask me on <a href="#" title="" class="transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline">Twitter</a>
+                    <br class="block sm:hidden" />Ask me on <a href="https://www.linkedin.com/in/samerbahri/" target="_blank" rel="noreferrer" title="" class="transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline">LinkedIn</a>
                 </p>
             </div>
 
