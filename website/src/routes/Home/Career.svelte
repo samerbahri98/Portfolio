@@ -2,12 +2,12 @@
 	<div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
 		<div class="max-w-2xl mx-auto text-center">
 			<h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-				How do we create success
+				My Journey
 			</h2>
-			<p class="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">
+			<!-- <p class="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">
 				Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
 				consequat duis.
-			</p>
+			</p> -->
 		</div>
 
 		<ul class="max-w-md mx-auto mt-16 space-y-12">
@@ -61,8 +61,7 @@
                     <h6 class="text-xs text-black">Graduating in January 2023, Budapest</h6>
 
 					<p class="mt-4 text-base text-gray-600">
-						Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-						consequat duis enim velit mollit.
+						Learned and practiced several technologies related to software engineering, data structures and algorithms.
 					</p>
 				</div>
 			</li>
@@ -118,8 +117,7 @@
                     <h5 class="text-sm text-black">Continental</h5>
                     <h6 class="text-xs text-black">2022, Budapest</h6>
 					<p class="mt-4 text-base text-gray-600">
-						Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-						consequat duis enim velit mollit.
+						Worked with React and Redux in an agile environment. Took some side responsabilites related to Backend and DevOps.
 					</p>
 				</div>
 			</li>
@@ -164,8 +162,8 @@
                     <h5 class="text-sm text-black">Suez WTS France</h5>
                     <h6 class="text-xs text-black">2019-2020, Budapest</h6>
 					<p class="mt-4 text-base text-gray-600">
-						Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-						consequat duis enim velit mollit.
+						Handled customer success cases using Salesforce and SAP.
+						Automated some of the repetitive tasks using Python.
 					</p>
 				</div>
 			</li>
